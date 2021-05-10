@@ -13,12 +13,13 @@
 }
 
 #Header h1{
-    display: inline;
-    margin-left:220px;
+    float:right;
+    margin-right:25%;
 }
 
 nav{
-    text-align: center;
+    float:right;
+    margin-right:30%;
 }
 
 #Sidebar{
@@ -128,9 +129,9 @@ figcaption{
     height:10vh;
 }
 
-img{
+.SightseeingImg{
     width: 33%;
-    height: auto;
+    height:auto;
     float:left;
 }
 
