@@ -12,15 +12,6 @@
     font-size:2em;
 }
 
-#Headertour{
-    width:100%;
-    height:14vh;
-    background-color:rgb(0,53,128);
-    
-    color:white;
-    font-size:2em;
-}
-
 #Header h1{
     float:right;
     margin-right:25%;
@@ -110,7 +101,7 @@ figcaption{
 
 #Headertour{
     width:100%;
-    height:12vh;
+    height:14vh;
     background-color:#003580;
     text-align: center;
     color:white;
