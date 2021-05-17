@@ -28,19 +28,26 @@
 #HeaderButtons{
     text-align: center;
     text-decoration: none;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transition: all 0.3s ease 0s;
 }
 
 #mainPageButtons{
     float:right;
     margin-right:30%;
     text-decoration: none;
-    box-shadow: 0px 15px 20px rgba(0, 36, 87, 0.301);
     background-color: #003580;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
 }
 
 #Sidebar{
-    height:80vh;
+    height:83vh;
     width:10vw;
     background-color:rgb(0,53,128);
     float:left;
@@ -53,7 +60,7 @@
 
 #mainContent{
     width:90vw;
-    height:80vh;
+    height:83vh;
 }
 
 .imageCool{
@@ -81,21 +88,21 @@ figcaption{
 }
 
 #Jarmo{
-    height:325px;
-    width:475px;
+    margin:auto;
+    height:5%;
+    width:25%;
+    
+    border: solid 5px rgba(0, 47, 112, 0.548);
+    border-radius: 5%;
 }
 
 #Footer{
     background-color:rgb(0,53,128);
     width:100%;
-    height:12vh;
+    height:8vh;
 }
-<<<<<<< Updated upstream
 
 /* Felix - Sightseeing */
-=======
-/* ASTON */
->>>>>>> Stashed changes
 #BilderSightseeing{
     width: 400px;
     height: 250px;
