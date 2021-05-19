@@ -5,7 +5,7 @@
 
 #Header{
     width:100%;
-    height:12vh;
+    height:20vh;
     background-color:rgb(0,53,128);
     
     color:white;
@@ -17,15 +17,26 @@
     margin-right:25%;
 }
 
+/* Found in main page */
+#AudioNational{
+    height:10vh;
+    width:10vw;
+
+    background-color: #003580;
+}
+
 #HeaderButtons{
     text-align: center;
     text-decoration: none;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
 }
 
 #mainPageButtons{
     float:right;
     margin-right:30%;
     text-decoration: none;
+    box-shadow: 0px 15px 20px rgba(0, 36, 87, 0.301);
+    background-color: #003580;
 }
 
 #Sidebar{
