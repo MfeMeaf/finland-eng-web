@@ -3,6 +3,7 @@
         <head>
         <title>Visit Finland now</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
@@ -10,21 +11,21 @@
         <div id="Header">
             <figure id="logoFigure">
                 <img src="images/logo.png" alt="logo" id="Logo">
-                <h1>Welcome To Finland!</h1>
+                <h1 id="HeaderMainPage">Welcome To Finland!</h1>
+                <br>
                 <nav id="mainPageButtons">
                     <button><a href="culture.html" class="headerButton">Finnish Culture</a></button>
                     <button><a href="traditions.html" class="headerButton">Finnish Tradition</a></button>
                     <button><a href="sightseeing.html" class="headerButton">Tourism in Finland</a></button>
                 </nav>
             </figure>
-            
-            <br>
+            <div id="Clock">8:10:45</div>
             
             <audio type="audio/mpeg" controls src="images/Maamme - National Anthem of Finland [Finnish and Swedish].mp3" id="AudioNational">National Anthem</audio>
         </div>
 
         <div id="mainContent">
-            <p>Finland is basically Sweden: Sweden Harder</p>
+            <p>The land of thousands lakes</p>
             <figure>
                 <img src="images/saunaman.jpg" alt="Man in a sauna" class="imageCool">
                 <img src="https://thumbs.dreamstime.com/z/woman-sauna-23208420.jpg" class="imageCool">
@@ -47,6 +48,7 @@
         
         </div>
 
-        <script src="JS/javascript.js"></script>
+        <script src="JS/javascript.js">
+        showTime();</script>
     </body>
 </html>
