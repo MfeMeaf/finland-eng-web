@@ -5,24 +5,33 @@
 
 #Header{
     width:100%;
-    height:20vh;
+    height:20%;
     background-color:rgb(0,53,128);
     
     color:white;
     font-size:2em;
+
+    text-align: center;
+    text-shadow: 5px 5px rgb(1, 25, 59);
+}
+
+#Logo{
+    float:left;
+    width:350px;
+    height:125px;
 }
 
 #Header h1{
-    float:right;
-    margin-right:25%;
+    position:relative;
+    top:18px;
+    left:10px;
 }
 
 /* Found in main page */
 #AudioNational{
-    height:10vh;
+    height:5vh;
     width:10vw;
-
-    background-color: #003580;
+    float:right;
 }
 
 #HeaderButtons{
@@ -39,6 +48,14 @@
     background-color: #003580;
 }
 
+#FinlandMap{
+    
+    width:15%;
+    height:35%;
+    margin-left:50%;
+    margin-right:50%;
+}
+
 #Sidebar{
     height:80vh;
     width:10vw;
@@ -51,19 +68,35 @@
     color:rgb(0,53,128);
 }
 
+#CultureTextContainer{
+    margin-left:5%;
+    padding-right:2.5%;
+    padding-left:2.5%;
+    padding-bottom:1.125%;
+    margin-top:2%;
+    width:85%;
+    height:85vh;
+    color:rgb(0,53,128);
+    font-size:larger;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.20);
+    text-align: center;
+}
+
 #mainContent{
-    width:90vw;
-    height:80vh;
+    margin-left:5%;
+    padding-right:2.5%;
+    padding-left:2.5%;
+    padding-bottom:1.125%;
+    margin-top:2%;
+    width:85%;
+    height:70%;
+    /*width:85vw;
+    height:83vh;*/
 }
 
 .imageCool{
     width:380px;
     height:380px;
-}
-
-#Logo{
-    width:350px;
-    height:125px;
 }
 
 #logoFigure{
@@ -88,6 +121,7 @@ figcaption{
 #Footer{
     background-color:rgb(0,53,128);
     width:100%;
+
     height:12vh;
 }
 
@@ -167,6 +201,7 @@ figcaption{
 }
 .Text-lillajul-text{
     width: 50%;
+<<<<<<< HEAD
     height: 40px;
     color: darkblue;
     float: left;
@@ -189,6 +224,11 @@ figcaption{
     width: 40%;
     margin-top: 85px;
     margin-left: 450px
+=======
+    margin-top: 50px;
+    margin-left: 450px;
+    background-color:blue;
+>>>>>>> 4caf62f164e494e3fb401248426b0cd12f58b162
 }
 #Footer-trad{
     background-color:darkblue;
@@ -248,7 +288,7 @@ figcaption{
 }
 
 /* Felix - Sightseeing */
-.Rovaniemi{
+#Rovaniemi{
     font-size: 25px;
     color:#003580;
 }
