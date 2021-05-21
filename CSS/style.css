@@ -21,7 +21,16 @@
     height:125px;
 }
 
-#Header h1{
+#Clock{
+    font-size:125%;
+    width:20%;
+    margin:2%;
+    text-align: center;
+    border:2px solid rgb(0,53,128);
+    border-radius: 2px; 
+}
+
+#HeaderMainPage{
     position:relative;
     top:18px;
     left:10px;
@@ -29,9 +38,10 @@
 
 /* Found in main page */
 #AudioNational{
-    height:5vh;
-    width:10vw;
+    height:25px;
+    width:100px;
     float:right;
+    margin-right:2%;
 }
 
 #HeaderButtons{
