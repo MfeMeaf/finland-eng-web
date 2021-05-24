@@ -9,7 +9,7 @@ var date = today.getFullYear() + '-' + (today.getMonth()+1) + '-' + today.getDat
 console.log(today);
 console.log(date);
 
-setInterval(showTime, 1000);
+setInterval(showTime, 500);
 function showTime(){
     let time = new Date();
     let hour = time.getHours();
@@ -36,3 +36,4 @@ function showTime(){
 
     document.getElementById("Clock").innerHTML = currentTime;
 }
+

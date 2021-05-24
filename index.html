@@ -5,9 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
+        <script src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
     </head>
     <body>
-        
         <div id="Header">
             <figure id="logoFigure">
                 <img src="images/logo.png" alt="logo" id="Logo">
@@ -42,8 +42,17 @@
         <div id="Footer">
             <p id="tour-p"> Website by Aston, Felix and Richard.</p>
         </div>
-
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });        
+        </script>
+        
         <script src="JS/javascript.js">
-        showTime();</script>
+        showTime();
+        </script>
     </body>
 </html>
