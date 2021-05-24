@@ -85,7 +85,7 @@
     padding-bottom:1.125%;
     margin-top:2%;
     width:85%;
-    height:85vh;
+    height:85%;
     color:rgb(0,53,128);
     font-size:larger;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.20);
@@ -100,8 +100,6 @@
     margin-top:2%;
     width:85%;
     height:70%;
-    /*width:85vw;
-    height:83vh;*/
 }
 
 .imageCool{
