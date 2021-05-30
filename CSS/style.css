@@ -4,17 +4,20 @@
 }
 body{
     background-color: #Fff;
+    width: 100vw; height: 100vh; min-width: 1000px; min-height: 1000px;
 }
 
 #IndexBody{
     /*height:100vh;
     width:100vw;*/
     width: 100vw; height: 100vh; min-width: 1000px; min-height: 1000px;
+    background-image: url("https://i.imgur.com/a6ugJBK.gif?noredirect");
+    background-size:cover;
 }
 
 #Header{
     width:100%;
-    height:16%;
+    height:auto;
     background-color:rgb(0,53,128);
     
     color:white;
@@ -85,24 +88,29 @@ body{
 
 #mainContent p{
     font-size: 1.5em;
-    color:rgb(0,53,128);
+    /*color:rgb(0,53,128);*/
+    color:white;
 }
 
 #CultureTextContainer{
-    margin-left:5%;
-    padding-right:2.5%;
-    padding-left:2.5%;
-    padding-bottom:1.125%;
-    margin-top:2%;
-    width:85%;
-    height:85%;
     color:rgb(0,53,128);
     font-size:larger;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.20);
     text-align: center;
-}
+    margin-left:2.5%;
+    padding-right:2.5%;
+    padding-left:1.125%;
+    padding-bottom:1.125%;
+    margin-top:2%;
+    width:85%;
+    height:auto;
 
+}
+#KarelianPasty{
+    height:20%;
+}
 #mainContent{
+    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -133,6 +141,10 @@ body{
 .headerButton{
     color:rgb(0,53,128);
     text-decoration: none;
+}
+
+#mainContent figcaption{
+    color:#FFF;
 }
 
 figcaption{
@@ -171,8 +183,8 @@ figcaption{
 }
 .Text-själv-text{
     width: 45%;
-    height: 40px;
-    color: darkblue;
+    height: auto;
+    color: white;
     float: left;
     font-size: xx-large;
     margin-left: 10px;
@@ -181,9 +193,11 @@ figcaption{
 #Text-area-tradition{
     background-color: white;
     width:70%;
-    height:175vh;
+    height:auto; /* using height auto to allow better scale ablility */
     margin-left: 5px;
     margin-top: 50px;
+
+    
 }
 .tradition-text{
     width:100%;
@@ -194,7 +208,7 @@ figcaption{
 }
 
 #självdagen{
-    color: darkblue;
+    color: white;
     height: 20vh;
     width: 40%;
     margin-top: 55px;
@@ -204,7 +218,7 @@ figcaption{
 .Text-vappen-text{
     width: 45%;
     height: 40px;
-    color: darkblue;
+    color: white;
     float: left;
     font-size: xx-large;
     margin-left: 10px;
@@ -219,7 +233,7 @@ figcaption{
 }
 
 #vappdagen{
-    color: darkblue;
+    color: white;
     height: 20vh;
     width: 45%;
     margin-top: 55px;
@@ -232,7 +246,7 @@ figcaption{
     background-color:blue;
 }
 #Footer-trad{
-    background-color:darkblue;
+    background-color:rgb(0,53,128);
     width:100%;
     height:10vh;
 }
@@ -265,7 +279,7 @@ figcaption{
 #Text-area{
     background-color: white;
     width:50%;
-    height:auto;
+    height:100%;
     margin-left: 5px;
     margin-top: 50px;
 }
