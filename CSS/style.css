@@ -21,16 +21,7 @@
     height:125px;
 }
 
-#Clock{
-    font-size:125%;
-    width:20%;
-    margin:2%;
-    text-align: center;
-    border:2px solid rgb(0,53,128);
-    border-radius: 2px; 
-}
-
-#HeaderMainPage{
+#Header h1{
     position:relative;
     top:18px;
     left:10px;
@@ -38,10 +29,9 @@
 
 /* Found in main page */
 #AudioNational{
-    height:25px;
-    width:100px;
+    height:5vh;
+    width:10vw;
     float:right;
-    margin-right:2%;
 }
 
 #HeaderButtons{
@@ -211,7 +201,6 @@ figcaption{
 }
 .Text-lillajul-text{
     width: 50%;
-<<<<<<< HEAD
     height: 40px;
     color: darkblue;
     float: left;
@@ -234,11 +223,6 @@ figcaption{
     width: 40%;
     margin-top: 85px;
     margin-left: 450px
-=======
-    margin-top: 50px;
-    margin-left: 450px;
-    background-color:blue;
->>>>>>> 4caf62f164e494e3fb401248426b0cd12f58b162
 }
 #Footer-trad{
     background-color:darkblue;
@@ -299,7 +283,7 @@ figcaption{
 
 /* Felix - Sightseeing */
 #Rovaniemi{
-    font-size: 25px;
+     font-size: 25px;
     color:#003580;
 }
 
