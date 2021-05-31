@@ -8,6 +8,7 @@ body{
     height: 100vh; 
     min-width: 1000px; 
     min-height: 1000px;
+    overflow-x: hidden;
 }
 
 #IndexBody{
@@ -45,9 +46,6 @@ body{
     height:65%;
 }
 
-<<<<<<< HEAD
-#Header h1{
-=======
 #Clock{
     font-size:125%;
     width:20%;
@@ -59,7 +57,6 @@ body{
 }
 
 #HeaderMainPage{
->>>>>>> 82478c72f106aecb0018d8a6fd5a64ef07f8f0e2
     position:relative;
     top:18px;
     left:10px;
@@ -275,7 +272,6 @@ figcaption{
 }
 .Text-lillajul-text{
     width: 50%;
-<<<<<<< HEAD
     height: 40px;
     color: darkblue;
     float: left;
@@ -297,12 +293,10 @@ figcaption{
     height: 20vh;
     width: 40%;
     margin-top: 85px;
-    margin-left: 450px
-=======
+    margin-left: 450px;
     margin-top: 50px;
     margin-left: 450px;
     background-color:rgb(0,53,128);
->>>>>>> 82478c72f106aecb0018d8a6fd5a64ef07f8f0e2
 }
 #Footer-trad{
     background-color:rgb(0,53,128);
