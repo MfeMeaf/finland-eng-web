@@ -3,6 +3,7 @@
     padding:0;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 body{
     background-color: #Fff;
     width: 100vw; 
@@ -22,6 +23,8 @@ body{
     background-image: url("https://i.imgur.com/a6ugJBK.gif?noredirect");
     background-size:cover;
 }
+=======
+>>>>>>> parent of f170740 (e)
 =======
 >>>>>>> parent of f170740 (e)
 
@@ -44,6 +47,7 @@ body{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Clock{
     font-size:125%;
     width:20%;
@@ -55,6 +59,9 @@ body{
 }
 
 #HeaderMainPage{
+=======
+#Header h1{
+>>>>>>> parent of f170740 (e)
 =======
 #Header h1{
 >>>>>>> parent of f170740 (e)
@@ -239,10 +246,13 @@ figcaption{
 .Text-lillajul-text{
     width: 50%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 50px;
     margin-left: 450px;
     background-color:rgb(0,53,128);
 =======
+=======
+>>>>>>> parent of f170740 (e)
     height: 40px;
     color: darkblue;
     float: left;
@@ -265,6 +275,9 @@ figcaption{
     width: 40%;
     margin-top: 85px;
     margin-left: 450px
+<<<<<<< HEAD
+>>>>>>> parent of f170740 (e)
+=======
 >>>>>>> parent of f170740 (e)
 }
 #Footer-trad{
