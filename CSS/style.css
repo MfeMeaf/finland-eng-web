@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
 }
+<<<<<<< HEAD
 body{
     background-color: #Fff;
     width: 100vw; 
@@ -21,18 +22,14 @@ body{
     background-image: url("https://i.imgur.com/a6ugJBK.gif?noredirect");
     background-size:cover;
 }
+=======
+>>>>>>> parent of f170740 (e)
 
 #Header{
-    top: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    width:auto;
-    max-width:100%;
-    min-width: 50%;
-    height:auto;
+    width:100%;
+    height:20%;
     background-color:rgb(0,53,128);
-    min-height:10%;
-    max-height:20%;
+    
     color:white;
     font-size:2em;
 
@@ -42,10 +39,11 @@ body{
 
 #Logo{
     float:left;
-    width:20%;
-    height:65%;
+    width:350px;
+    height:125px;
 }
 
+<<<<<<< HEAD
 #Clock{
     font-size:125%;
     width:20%;
@@ -57,6 +55,9 @@ body{
 }
 
 #HeaderMainPage{
+=======
+#Header h1{
+>>>>>>> parent of f170740 (e)
     position:relative;
     top:18px;
     left:10px;
@@ -101,64 +102,38 @@ body{
 
 #mainContent p{
     font-size: 1.5em;
-    /*color:rgb(0,53,128);*/
-    color:white;
+    color:rgb(0,53,128);
 }
 
 #CultureTextContainer{
+    margin-left:5%;
+    padding-right:2.5%;
+    padding-left:2.5%;
+    padding-bottom:1.125%;
+    margin-top:2%;
+    width:85%;
+    height:85vh;
     color:rgb(0,53,128);
     font-size:larger;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.20);
     text-align: center;
-    margin-left:2.5%;
-    padding-right:2.5%;
-    padding-left:1.125%;
-    padding-bottom:1.125%;
-    margin-top:2%;
-
-    height:auto;
-    width:auto;
-    min-width: 75%;
-    max-width:85%;
-    height:auto;
-    min-height:70%;
-    max-height:100%;
-
 }
-#KarelianPasty{
-    height:auto;
-    width:auto;
-    min-height:10%;
-    max-height:20%;
-    min-width: 20%;
-    max-width:40%;
-}
+
 #mainContent{
-    
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-left:2.5%;
+    margin-left:5%;
     padding-right:2.5%;
-    padding-left:1.125%;
+    padding-left:2.5%;
     padding-bottom:1.125%;
     margin-top:2%;
-    width:auto;
-    min-width: 50%;
-    max-width:90%;
-    height:auto;
-    min-height:80%;
-    max-height:90%;
+    width:85%;
+    height:70%;
+    /*width:85vw;
+    height:83vh;*/
 }
 
-#finlandNature{
-    width:60%;
-    height:auto;
-}
-
-#femaleSauna{
-    width:60%;
-    height:65%;
+.imageCool{
+    width:380px;
+    height:380px;
 }
 
 #logoFigure{
@@ -171,28 +146,20 @@ body{
     text-decoration: none;
 }
 
-#mainContent figcaption{
-    color:#FFF;
-    font-size: larger;
-}
-
 figcaption{
     color:rgb(0,53,128);
 }
 
 #Jarmo{
-    height:250%;
-    width:125%;
+    height:325px;
+    width:475px;
 }
 
 #Footer{
     background-color:rgb(0,53,128);
-    width:auto;
-    max-width:100%;
-    min-width: 50%;
-    height:auto;
-    max-height:20%;
-    min-height:10%;
+    width:100%;
+
+    height:12vh;
 }
 
 /* Felix - Sightseeing */
@@ -215,8 +182,8 @@ figcaption{
 }
 .Text-själv-text{
     width: 45%;
-    height: auto;
-    color: white;
+    height: 40px;
+    color: darkblue;
     float: left;
     font-size: xx-large;
     margin-left: 10px;
@@ -225,11 +192,9 @@ figcaption{
 #Text-area-tradition{
     background-color: white;
     width:70%;
-    height:auto; /* using height auto to allow better scale ablility */
+    height:175vh;
     margin-left: 5px;
     margin-top: 50px;
-
-    
 }
 .tradition-text{
     width:100%;
@@ -240,7 +205,7 @@ figcaption{
 }
 
 #självdagen{
-    color: white;
+    color: darkblue;
     height: 20vh;
     width: 40%;
     margin-top: 55px;
@@ -250,7 +215,7 @@ figcaption{
 .Text-vappen-text{
     width: 45%;
     height: 40px;
-    color: white;
+    color: darkblue;
     float: left;
     font-size: xx-large;
     margin-left: 10px;
@@ -265,7 +230,7 @@ figcaption{
 }
 
 #vappdagen{
-    color: white;
+    color: darkblue;
     height: 20vh;
     width: 45%;
     margin-top: 55px;
@@ -273,12 +238,37 @@ figcaption{
 }
 .Text-lillajul-text{
     width: 50%;
+<<<<<<< HEAD
     margin-top: 50px;
     margin-left: 450px;
     background-color:rgb(0,53,128);
+=======
+    height: 40px;
+    color: darkblue;
+    float: left;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.lillajul-text{
+    color: darkblue;
+    width:100%;
+    height:33%;
+    padding-bottom: 20px;
+    float: left;
+    font-size: medium;
+}
+
+#juldagen{
+    color: darkblue;
+    height: 20vh;
+    width: 40%;
+    margin-top: 85px;
+    margin-left: 450px
+>>>>>>> parent of f170740 (e)
 }
 #Footer-trad{
-    background-color:rgb(0,53,128);
+    background-color:darkblue;
     width:100%;
     height:10vh;
 }
@@ -288,7 +278,7 @@ figcaption{
 #textBreaker{
     background-color:#2F507F;
     width: 100%;
-    height: 5%;
+    height: 5vh;
     float:left;
 }
 
@@ -299,12 +289,8 @@ figcaption{
 
 /* Felix - Sightseeing */
 #Headertour{
-    top: 0;
-    position: -webkit-sticky;
-    position: sticky;
     width:100%;
-    height:auto;
-    max-height:11%;
+    height:15vh;
     background-color:#003580;
     text-align: center;
     color:white;
@@ -315,7 +301,7 @@ figcaption{
 #Text-area{
     background-color: white;
     width:50%;
-    height:100%;
+    height:175vh;
     margin-left: 5px;
     margin-top: 50px;
 }
@@ -347,9 +333,9 @@ figcaption{
 /* Felix - Sightseeing */
 #tour-p{
     color:white;
-    padding-top: 1.5%;
-    padding-left:5.5%;
-    
+    padding-top: 1.5em;
+    padding-left:5.5em;
+    float:left;
     font-size:1.5em;
 }
 
@@ -357,7 +343,7 @@ figcaption{
 #Footer-tour{
     background-color:rgb(0,53,128);
     width:100%;
-    height:10%;
+    height:10vh;
 }
 
 /* Felix - Sightseeing */
@@ -376,52 +362,3 @@ figcaption{
     height:33%;
     padding-bottom: 20px;
 }
-
-
-
-
-
-/* Loading thing */
-
-.loader-wrapper {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,53,128);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .loader {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border: 4px solid #Fff;
-    animation: loader 2s infinite ease;
-  }
-  .loader-inner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
-  }
-  @keyframes loader {
-    0% { transform: rotate(0deg);}
-    25% { transform: rotate(180deg);}
-    50% { transform: rotate(180deg);}
-    75% { transform: rotate(360deg);}
-    100% { transform: rotate(360deg);}
-  }
-  @keyframes loader-inner {
-    0% { height: 0%;}
-    25% { height: 0%;}
-    50% { height: 100%;}
-    75% { height: 100%;}
-    100% { height: 0%;}
-  }
-
-

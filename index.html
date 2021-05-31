@@ -3,55 +3,52 @@
         <head>
         <title>Visit Finland now</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
-        <script src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
     </head>
-    <body id="IndexBody">
+    <body>
+        
         <div id="Header">
             <figure id="logoFigure">
                 <img src="images/logo.png" alt="logo" id="Logo">
                 <h1 id="HeaderMainPage">Welcome To Finland!</h1>
-
+                <br>
                 <nav id="mainPageButtons">
                     <button><a href="culture.html" class="headerButton">Finnish Culture</a></button>
                     <button><a href="traditions.html" class="headerButton">Finnish Tradition</a></button>
                     <button><a href="sightseeing.html" class="headerButton">Tourism in Finland</a></button>
                 </nav>
-                
             </figure>
-            <div id="Clock">0:0:0</div>
+            <div id="Clock">8:10:45</div>
             
             <audio type="audio/mpeg" controls src="images/Maamme - National Anthem of Finland [Finnish and Swedish].mp3" id="AudioNational">National Anthem</audio>
         </div>
 
-        <div id="mainContent"> <!--Main content in page-->
+        <div id="mainContent">
             <p>The land of thousands lakes</p>
             <figure>
-                <img src="images/VisitFinland.png" alt="image from visit finland" id="finlandNature">
+                <img src="images/saunaman.jpg" alt="Man in a sauna" class="imageCool">
+                <img src="https://thumbs.dreamstime.com/z/woman-sauna-23208420.jpg" class="imageCool">
                 <figcaption>You can see this in Finland!</figcaption>
             </figure>
-            <p></p>
-            <!--Skickar dig till start sidan<figure>
+            <figure>
+                <img src="images/fi-06.svg" alt="Map containing Finland" id="Jarmo">
+            </figure>
+            <figure>
                 <img src="images/jarmo.png" alt="Jarmo" id="Jarmo">
                 <figcaption>You can find this man in Finland!</figcaption>
-            </figure>-->
+            </figure>
         </div>
         <div id="Footer">
-            <p id="tour-p"> Website by Aston, Felix and Richard.</p>
-        </div>
-        <!--Loading div-->
-        <div class="loader-wrapper">
-            <span class="loader"><span class="loader-inner"></span></span>
-        </div>
-        <script>
-        $(window).on("load",function(){
-            $(".loader-wrapper").fadeOut("slow");
-        });        
-        </script>
+            <p id="tour-p"> Hemsida gjord av Richard, Felix o Aston.</p>
+            <p id="tour-p"> Info </p>   
+            <p id="tour-p"> Info </p>
+            <p id="tour-p"> Info </p>
+            <p id="tour-p"> Info </p>
         
+        </div>
+
         <script src="JS/javascript.js">
-        showTime();
-        </script>
+        showTime();</script>
     </body>
 </html>
